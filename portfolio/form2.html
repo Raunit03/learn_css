@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h2>Zoo Keeper Application Form</h2>
+    <p>Please complete the form. Mandatory fields are marked with a*</p><br>
+    <form >
+       <fieldset>
+        <legend><b>CONTACT DETAILS</b></legend>
+NAME:<input type="text" id="NAME"name="NAME"><br><br>
+TELEPHONE:<input type="number" id="phone_no."name="telephone"><br><br>
+<label for="email">Email</label>
+<input type="email"><br>
+       </fieldset><br>
+<fieldset>
+    <legend>PERSONAL INFORMAION</legend>
+    <label for="age">age:</label>
+    <input type="number" name="age" id="age"><br><br>
+
+    <label for="gender">gender</label>
+    <select name="gender" id="gende">
+        <option value>Male</option>
+        <option value>Female</option>
+        <option value>others</option>
+    </select><br>
+
+<b>when did you first know you wanted to be a zoo-keeper?</b>
+    <textarea name="feedback" id="feedback"></textarea> 
+    </textarea>
+</fieldset><br>
+<fieldset>
+    <legend><b>PICK YOUR FAVORITE ANIMAL</b></legend>
+    <label for="cat">cat</label>
+  <input type="checkbox" name="animal" id="cat">
+  <label for="Dog">Dog</label>
+     <input type="checkbox" name="animal"id="Dog" >
+     <label for="Lion">Lion</label>
+    <input type="checkbox" name="animal" id="Lion">
+    <label for="Rat">Rat</label>
+    <input type="checkbox" name="animal"id="Rat" >
+    <label for="cow">cow</label>
+    <input type="checkbox" name="animal" id="cow">
+</fieldset>
+<input type="submit" value="submit">
+</form><br>
+ 
+
+
+</body>
+</html>

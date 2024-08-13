@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  width: 100%;
+  color: white;
+}
+
+/* section name */
+.section-name h2 {
+  color: rgba(0, 0, 0, 0.801);
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.star-div {
+  width: 100%;
+  display: flex;
+  color: rgba(0, 0, 0, 0.801);
+  align-items: center;
+  font-size: 10px;
+  justify-content: center;
+  margin-top: 5px;
+  gap: 5px;
+}
+.star-div .star {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+hr {
+  width: 70px;
+  height: 1.5px;
+  background-color: rgba(0, 0, 0, 0.801);
+  border-radius: 30px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(44, 62, 80);
+  padding: 18px 0;
+}
+
+nav .menu a {
+  color: #ffffff;
+  margin: 0 20px;
+  font-size: 12px;
+}
+
+nav .menu a:hover {
+  color: #1abc9c;
+}
+
+header {
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+  padding: 70px 0;
+}
+
+.hero .avataarImg img {
+  width: 150px;
+}
+
+.hero .hero-title {
+  font-size: 40px;
+  padding: 10px;
+}
+
+#protfolio .projects {
+  text-align: center;
+}
+.projects .project-container img {
+  width: 220px;
+  margin: 10px 10px;
+  border-radius: 8px;
+}
+
+form {
+  text-align: center;
+}
+
+form input,
+textarea {
+  width: 50%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.436);
+  margin: 10px 0;
+}
+
+form input:focus,
+textarea:focus {
+  outline: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.436);
+}
+
+form textarea {
+  height: 60px;
+}
+
+form .btn {
+  width: 60px;
+  height: 40px;
+  border: 2px solid #1abc9c;
+  margin-bottom: 50px;
+  background-color: #1abc9c;
+  color: white;
+  border-radius: 4px;
+}
+.about h2 {
+  text-align: center;
+}
+
+.about {
+    width: 100%;
+  height: 200px;
+  background-color: #1abc9c;
+  margin-bottom: 50px;
+  align-items: center;
+  text-align: center;
+  /* display: flex; */
+}
+.txt{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.left, .right{
+    width: 70%;
+
+}

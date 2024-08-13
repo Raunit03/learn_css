@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-color: #2cd8d3fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.masthead-avatar {
+    width: 15rem;
+}
+
+.masthead-heading {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+.masthead-subheading {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.portfolio {
+    padding: 5rem 0;
+}
+
+.portfolio-item {
+    margin-bottom: 2rem;
+}
+
+.page-section {
+    padding: 5rem 0;
+}
+
+.page-section-heading {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.bg-primary {
+    background-color: #007bff !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-secondary {
+    color: #6c757d !important;
+}
